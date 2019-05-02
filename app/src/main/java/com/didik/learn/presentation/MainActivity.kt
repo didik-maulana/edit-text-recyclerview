@@ -1,7 +1,8 @@
-package com.didik.learn
+package com.didik.learn.presentation
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.didik.learn.R
 
 class MainActivity : AppCompatActivity() {
 
