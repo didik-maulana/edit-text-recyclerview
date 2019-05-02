@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EditText RecyclerView</string>
+    <string name="add_item_title">ADD ITEM</string>
+    <string name="item_number">Item No.</string>
+    <string name="item_name_title">Name</string>
+    <string name="item_description_title">Description</string>
+</resources>
