@@ -1,0 +1,11 @@
+\.gradle/
+
+\.idea/
+
+app/app\.iml
+
+local\.properties
+
+edit-text-recyclerview\.iml
+
+app/release/
