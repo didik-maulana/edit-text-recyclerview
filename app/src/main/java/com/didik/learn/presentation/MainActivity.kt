@@ -36,8 +36,6 @@ class MainActivity : AppCompatActivity() {
             itemList.add(Item("", ""))
             itemsAdapter.notifyItemInserted(position)
             itemsAdapter.notifyDataSetChanged()
-
-
         }
 
         btn_clear_item.setOnClickListener {
