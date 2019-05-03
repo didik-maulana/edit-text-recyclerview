@@ -13,9 +13,9 @@
             tools:ignore="UselessParent">
 
         <TextView
+                android:id="@+id/item_number_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/item_number"
                 android:layout_centerVertical="true"
                 android:textStyle="bold"
                 android:textSize="18sp"
@@ -62,6 +62,7 @@
             tools:ignore="UselessLeaf">
 
         <EditText
+                android:id="@+id/input_item_name"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -70,6 +71,7 @@
                 tools:ignore="Autofill,LabelFor"/>
 
         <EditText
+                android:id="@+id/input_item_description"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
