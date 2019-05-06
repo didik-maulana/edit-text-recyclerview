@@ -10,7 +10,7 @@
         tools:context=".presentation.MainActivity">
 
     <android.support.v7.widget.RecyclerView
-            android:id="@+id/items_recycler_view"
+            android:id="@+id/todo_recycler_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@id/button_container"
@@ -22,29 +22,26 @@
             android:id="@+id/button_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:layout_alignParentBottom="true">
 
         <Button
-                android:id="@+id/btn_clear_item"
-                android:layout_width="0dp"
+                android:id="@+id/btn_add_todo"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@color/colorGrey"
-                android:text="@string/clear_item_title"
+                android:background="@color/colorPrimary"
+                android:text="@string/add_todo_title"
                 android:textColor="@color/colorWhite"
-                tools:ignore="ButtonStyle"/>
+                tools:ignore="ButtonStyle,RtlSymmetry"/>
 
         <Button
-                android:id="@+id/btn_add_item"
-                android:layout_width="0dp"
+                android:id="@+id/btn_clear_todo"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:text="@string/add_item_title"
+                android:background="@color/colorRed"
+                android:text="@string/clear_todo_title"
                 android:textColor="@color/colorWhite"
-                android:paddingStart="18dp"
-                android:drawableStart="@drawable/ic_add"
-                tools:ignore="ButtonStyle,RtlSymmetry"/>
+                tools:ignore="ButtonStyle"/>
 
     </LinearLayout>
 
